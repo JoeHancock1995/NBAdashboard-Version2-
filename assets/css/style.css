@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    background-image: url("../images/nba.gif");
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.header {
+    width: 100%;
+    color: #131313;
+letter-spacing: .15em;
+    margin-left: 0px;
+    color: white;
+    font-size: 100px;
+    font-family: "diskotequeregular";
+}
+h1{
+    margin-right: 400px;
+}
+#teamName {
+    font-family: "helvetica";
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#teamCity {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#form {
+    display: inline-flex;
+    text-shadow: none;
+}
+
+.select-wrapper {
+    background-color: white;
+}
+
+#player {
+    width: 350px;
+}
+
+#playerName {
+    color: black;
+    text-shadow: color: #000000;
+   
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    margin: -5px 0 0 0;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.button {
+    margin: 0 0 0 20px;
+}
+.button.hover{
+    background-color: black;
+}
+.collapsible-header {
+    text-shadow: none;
+    background-color: white;
+    color: black;
+}
+
+.collapsible-body {
+    text-shadow: none;
+    background-color: black;
+    color: white;
+}
+
+#gDiv {
+    font-size: 16px;
+    color: white;
+    border: white solid 2px;
+    padding: 0 20px;
+    float: left;
+}
+
+#games {
+    overflow: auto;
+    white-space: nowrap;
+    display: inline-flex;
+    width: 85%;
+}
